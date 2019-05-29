@@ -737,7 +737,7 @@ MUFI = {
     (247, 182): 'D'
 }
 MUFI[(32, 74)] = "et"
-
+MUFI[(167, 110)] = MUFI[(167, 111)] = "us"
 
 def mufidecode(string, join=True):
     """Transliterate Unicode text into plain 7-bit ASCII.
@@ -747,6 +747,7 @@ def mufidecode(string, join=True):
     >>> string = " soffroient Torm̃z⁊"
     >>> assert unidecode(string) == " soffroient Tormz7"  # Lostfirst character, et is converted to seven.
     >>> assert mufidecode(string) == "et soffroient Tormzet"
+    >>> assert mufidecode("ꝮꝯꝮꝯ") == "usususus"
     >>> assert mufidecode(string, join=False) == ('et', ' ', 's', 'o', 'f', 'f', 'r', 'o', 'i', 'e', 'n', 't', ' ', 'T', 'o', 'r', 'm', 'z', 'et')
 
     """
