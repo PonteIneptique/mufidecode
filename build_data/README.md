@@ -1,0 +1,1 @@
+Source of the data : https://skaldic.abdn.ac.uk/

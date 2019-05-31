@@ -739,6 +739,7 @@ MUFI = {
 MUFI[(32, 74)] = "et"
 MUFI[(167, 110)] = MUFI[(167, 111)] = "us"
 
+
 def mufidecode(string, join=True):
     """Transliterate Unicode text into plain 7-bit ASCII.
 
