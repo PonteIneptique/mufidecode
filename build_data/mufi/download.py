@@ -754,7 +754,7 @@ base_uri = "https://skaldic.abdn.ac.uk/m.php?p=mufichars&i=1&v="
 ignore_code = ["- spacing", "- symbols", "- punctuation", "- numbers", "- geometrical", "- formatting", "- combining"]
 
 for char in [
-    "A", "B", "C", "D", "D", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W",
+    "A", "B", "C", "D", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W",
     "X", "Y", "Z"
 ] + ignore_code:
     data = requests.get(base_uri+char)
