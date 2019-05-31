@@ -751,7 +751,7 @@ def get_base64_image(url):
 
 base_uri = "https://skaldic.abdn.ac.uk/m.php?p=mufichars&i=1&v="
 
-ignore_code = ["- spacing", "- symbols", "- punctuation", "- numbers", "- geometrical", "- formatting", "- combining"]
+ignore_code = ["- spacing", "- symbols", "- punctuation", "- numbers", "- combining"]
 
 for char in [
     "A", "B", "C", "D", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W",
