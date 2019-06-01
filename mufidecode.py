@@ -1460,6 +1460,7 @@ MUFI = {
     (241, 250): ';',  # PUNCTUS ELEVATUS WITH HIGH BACK
     (241, 251): ';',  # PUNCTUS ELEVATUS WITH ONSET
 }
+MUFI[(32, 25)] = "'"
 
 
 def mufidecode(string, join=True):
