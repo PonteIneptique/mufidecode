@@ -19,7 +19,7 @@ DESCRIPTION = 'Unidecode with medieval flavor'
 URL = 'https://github.com/ponteineptique/mufidecode'
 AUTHOR = ' Thibault Clérice'
 REQUIRES_PYTHON = '>=3.4.0'
-VERSION = "0.0.4"
+VERSION = "0.0.5"
 
 # What packages are required for this module to be executed?
 REQUIRED = ["unidecode"]

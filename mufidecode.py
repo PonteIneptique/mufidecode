@@ -1461,9 +1461,10 @@ MUFI = {
     (241, 251): ';',  # PUNCTUS ELEVATUS WITH ONSET
 }
 MUFI[(32, 25)] = "'"
+MUFI[(0, 176)] = "*"
 
 
-def mufidecode(string, join=True):
+def mufidecode(string, join=True, specifics=None):
     """Transliterate Unicode text into plain 7-bit ASCII.
 
     Example usage:
@@ -1476,6 +1477,8 @@ def mufidecode(string, join=True):
 
     """
     retval = []
+    if specifics:
+        MUFI.update(specifics)
 
     for char in string:
         codepoint = ord(char)
