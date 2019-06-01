@@ -5,7 +5,7 @@ from sys import version_info
 
 Cache = {}
 
-MMUFI = {
+MUFI = {
     (0, 86): 'V',  # LATIN CAPITAL LETTER V
     (0, 118): 'v',  # LATIN SMALL LETTER V
     (1, 191): 'V',  # LATIN LETTER WYNN
